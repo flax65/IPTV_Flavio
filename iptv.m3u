@@ -1,177 +1,458 @@
-#EXTM3U
-#EXTINF:-1,[1] Rai 1
+#EXTM3U url-tvg="https://www.davidefulgione.it/epg-it.xml"
+#EXTINF:-1 tvg-id="Rai1.it" tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[1] Rai 1
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1,[2] Rai 2
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=2606803&output=7&forceUserAgent=raiplayappletv
+#EXTINF:-1 tvg-id="Rai2.it" tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[2] Rai 2
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308718&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1,[3] Rai 3
+https://ilglobotv-live.akamaized.net/channels/RAI2/Live.m3u8
+#EXTINF:-1 tvg-id="Rai3.it" tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[3] Rai 3
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=308709&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1,[4] Rete 4
+https://viamotionhsi.netplus.ch/live/eds/rai3/browser-HLS8/rai3.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[4] Rete 4
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://live03-col.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/manifest.mpd
-#EXTINF:-1,[5] Canale 5
+https://live03-seg.msf.cdn.mediaset.net/live/ch-r4/r4-clr.isml/manifest_hd.mpd
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[5] Canale 5
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://live03-col.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/manifest.mpd
-#EXTINF:-1,[6] Italia 1
+https://live03-seg.msf.cdn.mediaset.net/live/ch-c5/c5-clr.isml/manifest_hd.mpd
+#EXTINF:-1 id="Italia1.it" tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[6] Italia 1
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://live03-col.msf.cdn.mediaset.net/live/ch-i1/i1-clr.isml/manifest.mpd
-#EXTINF:-1,[7] LA7
-https://d3749synfikwkv.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-74ylxpgd78bpb/Live.m3u8
-#EXTINF:-1,[8] TV8
-https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnea=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d
-#EXTINF:-1,[9] NOVE
-https://amg16146-wbdi-amg16146c1-samsung-it-1831.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-nove-samsungit/playlist.m3u8
-#EXTINF:-1,[20] 20
+https://viamotionhsi.netplus.ch/live/eds/italia1/browser-HLS8/italia1.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg"",[7] LA7
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://jmp2.uk/stvp-ITBD1500002NL
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[8] TV8
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://hlslive-web-dai-gcdn-skycdn-it.akamaized.net/linear/hls/pa/event/mWrbpUMsRZiqztJiIFAhcQ/stream/f2842169-224f-4769-91a2-2541d549847e:GRQ/master.m3u8?hdnea=st=1765726535~exp=1765726835~acl=*~id=a9ec4cdd-1b68-4d3a-ac8d-08d777a35cc4~hmac=416bc5b563b54849f0cc130160e276e5b3399aa49d69fc448ce8a4559ab4d9eb&CMCD=cid%3D7%2Cmtp%3D500%2Cot%3Dm%2Csf%3Dh%2Csid%3D%22e5c3fd94-3810-4ac5-924d-df96efe6dfea%22%2Csu
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[9] NEXOSTUDIOS
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://jmp2.uk/stvp-ITBD3200001VR
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[10] NOVE
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://d31mw7o1gs0dap.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-y5pbi2sq9r609/NOVE_IT.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[11] TELE A
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://lostream.it/hls/telea/video.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[12] 7 GOLD
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://streamcdnr6-dddfac816632463dac50b21109dc1bb3.msvdn.net/live/S58803518/OOZape6Nxp4H/chunklist.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[13] PADRE PIO TV
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://600f07e114306.streamlock.net/PadrePioTV/livestream/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[14] DISCOVERY CHANNEL
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://d24aqelmrau4kx.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-l1oas691aj7p2/WBTV_IT.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[15] RAI RADIO 2
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://visualradiodue3-live.akamaized.net/hls/live/2034078/visualradiodue3/visualradiodue3/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[16] BIKE
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://stream.prod-01.milano.nxmedge.net/argocdn/bikechannel/video.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[17] FIFA +
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://5d95f7d7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWl0X0ZJRkFQbHVzSXRhbGlhbl9ITFM/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[18] PLUS TV SPORT
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://jr7yvkmwda4v-hls-live.mariatvcdn.it/liveu/9aa7fdc4068e56587206b298b423cb82.sdp/chunks.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[19] REDBULL TV
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://dms.redbull.tv/v5/destination/rallytv/07f960dc-fd36-466c-971f-64a597518b83/personal_computer/http/us/en_US/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[20] 20 Mediaset
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-lb/lb-clr.isml/manifest.mpd
-#EXTINF:-1,[21] Rai 4
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[21] Rai 4
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1,[22] Iris
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746966&output=7&forceUserAgent=raiplayappletv
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[22] Iris
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/manifest.mpd
-#EXTINF:-1,[23] Rai 5
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[23] Rai 5
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1,[24] Rai Movie
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=395276&output=7&forceUserAgent=raiplayappletv
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[24] Rai Movie
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1,[25] Rai Premium
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747002&output=7&forceUserAgent=raiplayappletv
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[25] Rai Premium
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1,[26] Cielo
-https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8?hdnea=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d
-#EXTINF:-1,[27] Twenty Seven
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746992&output=7&forceUserAgent=raiplayappletv
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[26] Cielo
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[27] Twenty Seven
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-ts/ts-clr.isml/manifest.mpd
-#EXTINF:-1,[28] TV2000
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[28] TV2000
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://hls-live-tv2000.akamaized.net/hls/live/2028510/tv2000/master.m3u8
-#EXTINF:-1,[29] LA7d
-https://d15umi5iaezxgx.cloudfront.net/LA7D/CLN/HLS/Live.m3u8
-#EXTINF:-1,[30] La 5
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[29] LA7D
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://viamotionhsi.netplus.ch/live/eds/la7d/browser-HLS8/la7d.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[30] La 5
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/manifest.mpd
-#EXTINF:-1,[31] Real Time
-https://amg16146-wbdi-amg16146c2-samsung-it-1835.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-realtime-samsungit/playlist.m3u8
-#EXTINF:-1,[32] QVC
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[31] Real Time
+https://d3562mgijzx0zq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-kizqtzpvvl3i8/Realtime_IT.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[32] QVC
 https://qrg.akamaized.net/hls/live/2017383/lsqvc1it/master.m3u8
-#EXTINF:-1,[33] Food Network
-https://amg16146-wbdi-amg16146c3-samsung-it-1836.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-foodnetwork-samsungit/playlist.m3u8
-#EXTINF:-1,[34] Cine34
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[33] Food Network
+https://dk3okdd5036kz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-o4pw0nc02sthz/Foodnetwork_IT.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[34] Cine34
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-b6/b6-clr.isml/manifest.mpd
-#EXTINF:-1,[35] FOCUS
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[35] FOCUS
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/manifest.mpd
-#EXTINF:-1,[36] RTL 102.5
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[36] RTL 102.5
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_video.m3u8
-#EXTINF:-1,[37] Warner TV
-https://amg16146-wbdi-amg16146c4-samsung-it-1837.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-warnertv-samsungit/playlist.m3u8
-#EXTINF:-1,[38] Giallo
-https://amg16146-wbdi-amg16146c5-samsung-it-1838.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-giallo-samsungit/playlist.m3u8
-#EXTINF:-1,[39] Top Crime
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[37] SOLOCALCIO
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://italiansport-solocalcio-samsung.amagi.tv/hls/amagi_hls_data_sportital-solocalcio-samsung-italy/CDN/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[38] Giallo
+https://d9fqo6nfqlv2h.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ulukbrgm1n3yb/Giallo_IT.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[39] Top Crime
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-lt/lt-clr.isml/manifest.mpd
-#EXTINF:-1,[40] Boing
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[40] Boing
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-kb/kb-clr.isml/manifest.mpd
-#EXTINF:-1,[41] K2
-https://amg16146-wbdi-amg16146c6-samsung-it-1839.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-k2-samsungit/playlist.m3u8
-#EXTINF:-1,[42] Rai Gulp
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[41] K2
+https://d1pmpe0hs35ka5.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-39hsskpppgf72/K2_IT.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[42] Rai Yoyo
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1,[43] Rai Yoyo
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[43] Anime
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1,[44] Frisbee
-https://amg16146-wbdi-amg16146c7-samsung-it-1840.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-frisbee-samsungit/playlist.m3u8
-#EXTINF:-1,[46] Cartoonito
+https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/65b90daed77d450008a43345/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=0&appVersion=0&clientModelNumber=1.0.0&country=IT&deviceDNT=false&deviceId=0&deviceLat=45.4640&deviceLon=9.1919
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[44] Frisbee
+https://d6m7lubks416z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zmbstsedxme9s/Frisbee_IT.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[45] Cartoonito
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-la/la-clr.isml/manifest.mpd
-#EXTINF:-1,[47] Super!
-https://vimnitaly.akamaized.net/hls/live/2094034/super/master.m3u8
-#EXTINF:-1,[48] Rai News 24
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[46] Super!
+https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[47] RAI GULP
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1,[49] Italia 2
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746953&output=7&forceUserAgent=raiplayappletv
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[48] Rai News 24
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=7&forceUserAgent=raiplayappletv
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[49] Italia 2
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/manifest.mpd
-#EXTINF:-1,[50] Sky TG24
-https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1701861650~exp=1765449000~acl=/*~hmac=84c9f3f71e57b13c3a67afa8b29a8591ea9ed84bf786524399545d94be1ec04d
-#EXTINF:-1,[51] TGCOM 24
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[50] Sky TG24
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/12221/web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[51] TGCOM 24
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-kf/kf-clr.isml/manifest.mpd
-#EXTINF:-1,[52] DMAX
-https://amg16146-wbdi-amg16146c8-samsung-it-1841.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-dmax-samsungit/playlist.m3u8
-#EXTINF:-1,[54] Rai Storia
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[52] DMAX
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1,[55] Mediaset Extra
+https://d2j2nqgg7bzth.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-02k1gv1j0ufwn/DMAX_IT.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[53] Rai Storia
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746990&output=7&forceUserAgent=raiplayappletv
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[54] Mediaset Extra
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msf.cdn.mediaset.net/live/ch-kq/kq-clr.isml/manifest.mpd
-#EXTINF:-1,[56] HGTV - Home&Garden
-https://amg16146-wbdi-amg16146c9-samsung-it-1842.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-hgtv-samsungit/playlist.m3u8
-#EXTINF:-1,[57] Rai Scuola
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[55] HGTV - Home&Garden
+https://d1tidto9vz737l.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-joaw4f4kh2en1/HGTV_IT.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[56] Rai Scuola
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1,[58] Rai Sport + HD
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=747011&output=7&forceUserAgent=raiplayappletv
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[57] Rai Sport + HD
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1,[59] Motor Trend
-https://amg16146-wbdi-amg16146c10-samsung-it-1843.playouts.now.amagi.tv/playlist/amg16146-warnerbrosdiscoveryitalia-motortrend-samsungit/playlist.m3u8
-#EXTINF:-1,[60] Sportitalia
-https://sportitaliaamd.akamaized.net/live/Sportitalia/hls/F59D8EB0332E783633CDDE8E265844975635D24F/index.m3u8
-#EXTINF:-1,[62] Donna TV
-https://sportitaliaamd.akamaized.net/live/Donna_TV/hls/42EB42E58EA44362045EFEA804E3FCF0DB33C481/index.m3u8
-#EXTINF:-1,[64] Supertennis
-https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/rtmp/hls/h24_supertennix/manifest.m3u8
-#EXTINF:-1,[65] ALMA TV
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forceUserAgent=raiplayappletv
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[58] Motor Trend
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://d205m6k582pec4.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-asg5puyzdtnqu/Motortrend_IT.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[59] Sportitalia
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://sportsitalia-samsungitaly.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[60] Donna TV
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://5a1178b42cc03.streamlock.net/donnatv/donnatv/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[61] Supertennis
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://live-embed.supertennix.hiway.media/restreamer/supertennix_client/gpu-a-c0-16/restreamer/outgest/aa3673f1-e178-44a9-a947-ef41db73211a/manifest.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[62] ALMA TV
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://streaming.softwarecreation.it/AlmaTv/AlmaTv/playlist.m3u8
-#EXTINF:-1,[66] Radio 105 TV
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg",[63] Radio 105 TV
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msr.cdn.mediaset.net/live/ch-ec/ec-clr.isml/manifest.mpd
-#EXTINF:-1,[67] R101 TV
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [64] R101 TV
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msr.cdn.mediaset.net/live/ch-er/er-clr.isml/manifest.mpd
-#EXTINF:-1,[68] BOM CHANNEL
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [65] BOM CHANNEL
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://5f22d76e220e1.streamlock.net/canale6/canale6/playlist.m3u8
-#EXTINF:-1,[69] Deejay TV
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [66] Deejay TV
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S85984808/sMO0tz9Sr2Rk/playlist.m3u8
-#EXTINF:-1,[70] RadioItaliaTV
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [67] RadioItaliaTV
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://radioitaliatv.akamaized.net/hls/live/2093117/RadioitaliaTV/master.m3u8
-#EXTINF:-1,[101] Rai 4K (HbbTV)
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [68] Kiss Kiss Tv Napoli
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-https://raievent10-elem-live.akamaized.net/hls/live/619189/raievent10/raievent10/playlist.m3u8
-#EXTINF:-1,[145] Padre Pio TV
+https://58f12ffd2447a.streamlock.net/KKTVNapoli/livestream/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [69] Padre Pio TV
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://600f07e114306.streamlock.net/PadrePioTV/livestream/playlist.m3u8
-#EXTINF:-1,[158] RADIO KISS KISS TV
-https://kk.fluid.stream/KKMulti/smil:KissKissTV.smil/playlist.m3u8
-#EXTINF:-1,[202] Rai Radio 2 Visual
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [70] RADIO KISS KISS TV
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
-http://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=5674080&output=7&forceUserAgent=raiplayappletv
-#EXTINF:-1,[233] RTL 102.5 News
+https://kk.fluid.stream/KKMulti/smil:KissKissTV.smil/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [71] Rai Radio 2 Visual
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=5674080&output=7&forceUserAgent=raiplayappletv
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [72] RTL 102.5 News
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S38122967/2lyQRIAAGgRR/playlist_video.m3u8
-#EXTINF:-1,[257] VIRGIN RADIO
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [73] VIRGIN RADIO
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msr.cdn.mediaset.net/live/ch-ew/ew-clr.isml/manifest.mpd
-#EXTINF:-1,[258] RADIOFRECCIA
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [74] RADIOFRECCIA
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S3160845/0tuSetc8UFkF/playlist_video.m3u8
-#EXTINF:-1,[262] Byoblu
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [75] Byoblu
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://09bd1346f7a44cc9ac230cc1cb22ca4f.msvdn.net/live/S39249178/EnTK3KeeN1Eg/playlist.m3u8
-#EXTINF:-1,[265] RDS Social TV
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [76] RDS Social TV
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://stream.rdstv.radio/index.m3u8
-#EXTINF:-1,[266] RADIO ZETA
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [77] RADIO ZETA
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S9346184/XEx1LqlYbNic/playlist_video.m3u8
-#EXTINF:-1,[713] Radio Capital TV
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [78] Radio Capital TV
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S35394734/Z6U2wGoDYANk/playlist.m3u8
-#EXTINF:-1,[715] M2O TV
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [79] F1 TV
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/v1/stitch/embed/hls/channel/65c69ee3d77d450008c80438/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=0&appVersion=0&clientModelNumber=1.0.0&country=IT&deviceDNT=false&deviceId=0&deviceLat=45.4640&deviceLon=9.1919&serverSideAds=false&marketingRegion=IT&masterJWTPassthrough=true&includeExtendedEvents=true&embedPartner=samsung-tvplus
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [80] M2O TV
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/playlist.m3u8
-#EXTINF:-1,[772] Radio Montecarlo TV
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [81] Radio Montecarlo TV
 #EXTVLCOPT:http-user-agent=HbbTV/1.6.1
 https://live03-col.msr.cdn.mediaset.net/live/ch-bb/bb-clr.isml/manifest.mpd
-#EXTINF:-1,[831] RTV San Marino
-https://d2hrvno5bw6tg2.cloudfront.net/smrtv-ch01/_definst_/smil:ch-01.smil/chunklist_b2192000_slita.m3u8
-#EXTINF:-1,[899] Radio TV Serie A con RDS
-https://stream.radioseriea.com/50773f0d0070476a8612d9984c6059d8/index.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [82] Radio 24 TV
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://ilsole24ore-radiovisual.akamaized.net/hls/live/2035302/persidera/master.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [83] Inter TV
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://ilglobotv-live.akamaized.net/channels/InterTV/Live.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [84] Inter 24/7
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://amg27604-amg27604c2-amgplt0148.playout.now3.amagi.tv/playlist/amg27604-amg27604c2-amgplt0148/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [85] Radio TV Serie A
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://livesg.seriea.hiway.media/restreamer/seriea_client/gpu-a-c0-8/restreamer/outgest/84d19a87-f82f-4aa2-80cd-2ab1105eac79/manifest.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [86] SoloCalcio
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://italiansport-solocalcio-samsung.amagi.tv/hls/amagi_hls_data_sportital-solocalcio-samsung-italy/CDN/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [87] MOVE Sport
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://d3i87cms5m5yjq.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-75fzs486ayykg/mov.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [88] Tennis Channel
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://amg01444-tennischannelth-tennischde-samsungch-jp1l8.amagi.tv/playlist/amg01444-tennischannelth-tennischde-samsungch/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [89] Tennis +
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://amg01935-amg01935c1-amgplt0020.playout.now3.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [90] Plus TV SPort
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://jr7yvkmwda4v-hls-live.mariatvcdn.it/liveu/9aa7fdc4068e56587206b298b423cb82.sdp/chunks.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [91] ACI SPort
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://webstream.multistream.it/memfs/e2cb3629-c1a2-495b-b43a-9eb386f04ed8.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [92] FF MOTOR SPORT
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://host1.momentotv.live:28443/cmaf/ffmotorsport/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [93] PLUTO CANZONI ITALIANE
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/63724270c7c2360007b170e8/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=0&appVersion=0&clientModelNumber=1.0.0&country=IT&deviceDNT=false&deviceId=0&deviceLat=45.4640&deviceLon=9.1919&serverSideAds=false&marketingRegion=IT&masterJWTPassthrough=true&includeExtendedEvents=true&embedPartner=samsung-tvplus
+
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [94] PLUTO TV FILM
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/608aa17fb9f4490007e6419a/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedP artner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [95] PLUTO TV AZIONE
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/608aa20a2e7f270007c4878d/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedP artner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [96] PLUTO TV CINEMA ITALIANO
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/608aa7d8359b270007861489/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedP artner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [97] PLUTO TV TOTO'
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/65253f9881f942000833ccd5/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [98] PLUTO TV ROMANTICI
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/608aa4a4cc92820007b663af/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [99] PLUTO TV DRAMMATICO
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/608aa42b5c2b8f0007197529/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedP artner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [100] PLUTO SERIE TV
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/60b9ff2722bfa400072676ef/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [101] RAI 1 Estero
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://viamotionhsi.netplus.ch/live/eds/rai1/browser-HLS8/rai1.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [102] RAI 2 Estero
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://ilglobotv-live.akamaized.net/channels/RAI2/Live.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [103] RAI 3 Estero
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://viamotionhsi.netplus.ch/live/eds/rai3/browser-HLS8/rai3.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [104] Altre TV
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01821-lovetvchannels-lovemagazineit-samsungit/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [105] PLUTO THRILLER
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608aa5e995132a00075f7005/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=0&appVersion=0&clientModelNumber=1.0.0&country=IT&deviceDNT=false&deviceId=0&deviceLat=45.4640&deviceLon=9.1919&serverSideAds=false&marketingRegion=IT&masterJWTPassthrough=true&includeExtendedEvents=true&embedPartner=samsung-tvplus
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [106] PLUTO SUPER STAR
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/v1/stitch/embed/hls/channel/6093f6f8351eb0000754afb8/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=0&appVersion=0&clientModelNumber=1.0.0&country=IT&deviceDNT=false&deviceId=0&deviceLat=45.4640&deviceLon=9.1919&serverSideAds=false&marketingRegion=IT&masterJWTPassthrough=true&includeExtendedEvents=true&embedPartner=samsung-tvplus
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [107] BCC EARTH
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://amg00793-amg00793c23-samsung-it-4780.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcearthitaly-samsungit/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [108] PRIMAVERA TV
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://distribution.sportitalialive.it/sportitalia/silive24_abr/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [109] FILM TOP
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://d4a4999341764c67a67e9ec9eb3790ab.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-5984/master.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [110] RAKUTEN TV AZIONE
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://87f2e2e5e7624e3bad85da1ca2ed31a7.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6067/master.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [111] SONY ONE
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://076507c6230e400ebcce99e452f12b7f.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-824-IT-SONYONEFILMDIVERTENTI-LG_IT/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [112] RAKUTEN ROMANZI
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://3e0f2491d8634a58967529df3f424c0d.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6193/master.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [113] RAKUTEN COMMEDIA
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://b8bc6c4b9be64bd6aeb3b92aa8521ed4.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6184/master.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [114] RAKUTEN FAMILY
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://3315fc3e7276420f895e19cf807dbee1.mediatailor.eu-west-1.amazonaws.com/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6215/master.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [115] RAKUTEN FANTASCIENZA
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://sci-fi-rakuten-tv-it.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6430/master.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [116] CHILI FILM SMILE
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://chili-chilibuonumore-1-it.xiaomi.wurl.tv/4300.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [117] CHILI INDIMENTICABILI
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://chili-chiliindimenticabili-1-it.xiaomi.wurl.tv/4300.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [118] PLUTO TV CUCINA
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://jmp2.uk/plu-608aa718a8ec810007d87fee.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [119] PLUTO TV NATURA
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://jmp2.uk/plu-60802b37709d6b0007b0c549.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [120] PLUTO TV REAL LIFE
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://jmp2.uk/plu-60801976f92a750007a0699c.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [121] PLUTO TV REALITY
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://jmp2.uk/plu-61925f874b1ec000075e700a.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [122] PLUTO TV SCHERZI E RISATE
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://jmp2.uk/plu-609404b0a8ec810007d8de9d.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [123] PLUTO TV VIAGGI
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://jmp2.uk/plu-63c923944207be0007fd0887.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [124] PLUTO TV EROS
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://jmp2.uk/plu-66335489307fa300082bd6e4.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [125] STORIE CRIMINALI
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://jmp2.uk/plu-66177d18c8311c0008d077d0.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [126] 3B METEO
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://jmp2.uk/stvp-IT500008CB
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [127] RTL BEST
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S76960628/OEPHRUIctA0M/playlist_video.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [128] RTL DISCO
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S51100361/0Fb4R3k82b5Z/playlist_video.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [129] RAI ITALIA LIVE
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://ilglobotv-live.akamaized.net/channels/RAIItaliaSudAfrica/Live.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [130] RAI WORLD PREMIUM
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://ilglobotv-live.akamaized.net/channels/RAIPremium/Live.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [131] RAI 2 ESTERO
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://ilglobotv-live.akamaized.net/channels/RAI2/Live.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [132] PLUTO TV HORROR
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://jmp2.uk/plu-61c09e3ac210ed0007606620.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [133] CHILI ALTA TENSIONE
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://chili-chili-alta-tensione-1-it.xiaomi.wurl.tv/4300.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [134] CINE PAURA
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://amg02512-amg02512c7-samsung-it-5138.playouts.now.amagi.tv/playlist/amg02512-nexodigital-comedytime-samsungit/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [134] BRIVIDI CINEMA
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://ixmediasrl-serially-1-it.xiaomi.wurl.tv/4300.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [135] ADRENALINE MOVIES
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://758d48db.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1pdF9GdWxsTW9vbl9ITFM/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [136] CINE THRILLER
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608aa5e995132a00075f7005/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=0&appVersion=0&clientModelNumber=1.0.0&country=IT&deviceDNT=false&deviceId=0&deviceLat=45.4640&deviceLon=9.1919&serverSideAds=false&marketingRegion=IT&masterJWTPassthrough=true&includeExtendedEvents=true&embedPartner=samsung-tvplus
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [137] CANALE 21
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://0ff9dd7fe9b64bc08a5fc4ed525454c3.msvdn.net/live/S38994111/B7j0ql4XaZtE/playlist.m3u8
+#EXTINF:-1 tvg-logo="http://davidefulgione.it/loghi/nologo.jpg", [138] RS1 LA1
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://viamotionhsi.netplus.ch/live/eds/rsila1hd/browser-dash/rsila1hd.mpd
+#EXTINF:-1  tvg-logo="http://davidefulgione.it/loghi/paura.jpg", [139] NEXOSTUDIOS BRIVIDI
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://amg02512-amg02512c7-samsung-it-5138.playouts.now.amagi.tv/playlist/amg02512-nexodigital-comedytime-samsungit/playlist.m3u8
+#EXTINF:-1  tvg-logo="http://davidefulgione.it/loghi/brividi.jpg", [140] BRIVIDI CINEMA
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://ixmediasrl-serially-1-it.xiaomi.wurl.tv/4300.m3u8
+#EXTINF:-1  tvg-logo="http://davidefulgione.it/loghi/ad.jpg", [141] ADRENALINE MOVIES
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://758d48db.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1pdF9GdWxsTW9vbl9ITFM/playlist.m3u8
+#EXTINF:-1  tvg-logo="http://davidefulgione.it/loghi/ct.jpg", [142] CINE THRILLER
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://stitcher-ipv4.pluto.tv/v1/stitch/embed/hls/channel/608aa5e995132a00075f7005/master.m3u8?deviceType=samsung-tvplus&deviceMake=samsung&deviceModel=samsung&deviceVersion=0&appVersion=0&clientModelNumber=1.0.0&country=IT&deviceDNT=false&deviceId=0&deviceLat=45.4640&deviceLon=9.1919&serverSideAds=false&marketingRegion=IT&masterJWTPassthrough=true&includeExtendedEvents=true&embedPartner=samsung-tvplus
+#EXTINF:-1  tvg-logo="http://davidefulgione.it/loghi/nexto.jpg", [143] NEXOSTUDIOS
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://jmp2.uk/stvp-ITBD3200001VR
+#EXTINF:-1  tvg-logo="http://davidefulgione.it/loghi/nexto.jpg", [144] NEXOSTUDIOS WESTERN
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://amg02512-amg02512c8-lg-it-8917.playouts.now.amagi.tv/playlist/amg02512-nexodigital-westerntime-lgit/playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]
+#EXTINF:-1  tvg-logo="http://davidefulgione.it/loghi/nexto.jpg", [145] NEXOSTUDIOS CRIME TIME
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://amg02512-amg02512c9-lg-it-8920.playouts.now.amagi.tv/playlist/amg02512-nexodigital-crimetime-lgit/playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]
+#EXTINF:-1  tvg-logo="http://davidefulgione.it/loghi/nexto.jpg", [146] NEXOSTUDIOS DURI A MORIRE
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://amg02512-amg02512c5-lg-it-8919.playouts.now.amagi.tv/playlist/amg02512-nexodigital-duriamorire-lgit/playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]
+#EXTINF:-1  tvg-logo="http://davidefulgione.it/loghi/nexto.jpg", [147] NEXOSTUDIOS CINE PAURA
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://amg02512-amg02512c7-lg-it-8921.playouts.now.amagi.tv/playlist/amg02512-nexodigital-cinepaura-lgit/playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]
+#EXTINF:-1  tvg-logo="http://davidefulgione.it/loghi/nexto.jpg", [148] NEXOSTUDIOS CINE MALIZIA
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://amg02512-amg02512c6-lg-it-8922.playouts.now.amagi.tv/playlist/amg02512-nexodigital-cinemalizia-lgit/playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]
+#EXTINF:-1  tvg-logo="http://davidefulgione.it/loghi/nexto.jpg", [149] NEXOSTUDIOS CINE THRILLER
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://amg02512-nexodigital-amg02512c2-lg-it-822.playouts.now.amagi.tv/playlist/amg02512-nexodigital-levitedeglialtri-lgit/playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads._fw_atts=[FW_ATTS]&ads.content_livestream=[CONTENT_LIVESTREAM]&ads.prodq=[PRODUCTION_QUALITY]&ads.ic=[IAB_CATEGORY]&ads.network_name=[NETWORK_NAME]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]
+#EXTINF:-1  tvg-logo="http://davidefulgione.it/loghi/nexto.jpg", [150] NEXOSTUDIOS TOP SERIE
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://amg02512-amg02512c4-lg-it-8918.playouts.now.amagi.tv/playlist/amg02512-nexodigital-topserie-lgit/playlist.m3u8?ads.deviceid=[DEVICE_ID]&ads.ifa=[IFA]&ads.ifatype=[IFA_TYPE]&ads.lat=[LMT]&ads.donotsell=[DNS]&ads.ua=[UA]&ads.ip=[IP]&ads.gdpr=[GDPR]&ads.gdprconsent=[GDPR_CONSENT]&ads.country=[COUNTRY]&ads.usprivacy=[US_PRIVACY]&ads.appstoreurl=[APP_STOREURL]&ads.bundleid=[APP_BUNDLE]&ads.appname=[APP_NAME]&ads.appversion=[APP_VERSION]&ads.devicetype=[DEVICE_TYPE]&ads.devicemake=[DEVICE_MAKE]&ads.devicemodel=[DEVICE_MODEL]&ads.targetad=[TARGETAD_ALLOWED]&ads.fck=[FCK]&ads.viewsize=[VIEWSIZE]&ads.givn=[NONCE]
+#EXTINF:-1  tvg-logo="http://davidefulgione.it/loghi/nexto.jpg", [151] NEXOSTUDIOS GLI IMMORTALI
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://jmp2.uk/plu-6536608b4f123d000876b78b.m3u8
+#EXTINF:-1  tvg-logo="http://davidefulgione.it/loghi/sony.jpg", [152] SONY ONE SERIE DA RIDERE
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://5ee04aace69647d9beda78401dc4c0ee.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-825-IT-SONYONESERIEDARIDERE-LG_IT/playlist.m3u8
+#EXTINF:-1  tvg-logo="http://davidefulgione.it/loghi/sony.jpg",[153] SONY ONE POPOLARI
+#EXTVLCOPT:http-user-agent=HbbTV/1.6.1
+https://15bd51164d444cf0b03f472a0b40381b.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-826-IT-SONYONEPOPOLARI-LG_IT/playlist.m3u8
+
+
+
